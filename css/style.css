@@ -18,3 +18,34 @@ main{
   height: calc(100vh - 150px);
   overflow-y: scroll;
 }
+
+.flex{
+  display: flex;
+}
+
+.center{
+  justify-content: center;
+  align-content: center;
+}
+
+.f-end{
+  justify-content: flex-end;
+}
+
+.view-tools{
+  align-items: center;
+}
+
+.view-change, .view-expand{
+  background-color: #4a4a4a;
+  padding: 10px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  height: 50%;
+  color: white;
+  align-items: center;
+}
+
+.view-tools ul li{
+  list-style: none;
+}
