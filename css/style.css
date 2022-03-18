@@ -11,12 +11,18 @@ header{
 
 footer{
   height: 100px;
-  background-color: black;
+  background-color: #222222;
+  justify-content: space-between;
+  color: white;
 }
 
 main{
   height: calc(100vh - 150px);
   overflow-y: scroll;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: black;
 }
 
 .flex{
@@ -31,6 +37,11 @@ main{
 .f-end{
   justify-content: flex-end;
 }
+
+
+/* 
+  HEADER 
+*/
 
 .view-tools{
   align-items: center;
@@ -49,3 +60,52 @@ main{
 .view-tools ul li{
   list-style: none;
 }
+
+/* 
+  /HEADER 
+*/
+
+
+/* 
+  MAIN 
+*/
+
+.avatar-box{
+  position: relative;
+  background-color: lightsalmon;
+  height: 200px;
+  width: 300px;
+  justify-content: center;
+  align-content: flex-end;
+  margin: 5px;
+}
+
+.avatar-box img{
+  width: 100%;
+  height: auto;
+} 
+
+.avatar-info{
+  position: absolute;
+  left:0;
+  bottom: 0;
+  padding: 8px 10px;
+  background-color: rgba(10,10,10, 0.5);
+  color: white;
+}
+
+/* 
+  /MAIN 
+*/
+
+
+/* 
+  FOOTER 
+*/
+
+
+
+
+/* 
+  /FOOTER 
+*/
