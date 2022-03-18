@@ -127,11 +127,18 @@ main{
 .col-mid ul li{
   list-style: none;
   margin-right: 5px;
+  flex-shrink: 0;
 }
 
 .col-left ul,
 .col-mid ul{
   align-items: center;
+}
+
+.col-left,
+.col-mid,
+.col-right{
+  flex-shrink: 0;
 }
 
 
