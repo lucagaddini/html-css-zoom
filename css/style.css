@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
   height: 50px;
   background-color: black;
@@ -13,6 +17,7 @@ footer{
   height: 100px;
   background-color: #222222;
   justify-content: space-between;
+  align-items: center;
   color: white;
 }
 
@@ -75,14 +80,13 @@ main{
   background-color: lightsalmon;
   height: 200px;
   width: 300px;
-  justify-content: center;
-  align-content: flex-end;
   margin: 5px;
 }
 
 .avatar-box img{
   width: 100%;
   height: auto;
+  
 } 
 
 .avatar-info{
@@ -103,8 +107,44 @@ main{
   FOOTER 
 */
 
+.footer-element{
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  flex-shrink: 0;
+}
+
+.fa-solid.active{
+  color: greenyellow;
+}
+
+.footer-element .fa-solid{
+  font-size: 35px;
+  padding-bottom: 10px;
+}
+
+.col-left ul li,
+.col-mid ul li{
+  list-style: none;
+  margin-right: 5px;
+}
+
+.col-left ul,
+.col-mid ul{
+  align-items: center;
+}
 
 
+.col-right{
+  color: red;
+  background-color: grey;
+  padding: 10px;
+  align-self: stretch;
+}
+
+.end-button{
+  align-items: center;
+}
 
 /* 
   /FOOTER 
